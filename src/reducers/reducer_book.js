@@ -1,11 +1,10 @@
 export default function(){
     console.log("reducer---");
     return [
-        {title : 'javascript', pages:101},
-        {title : 'harry potter', pages:1031},
-        {title : 'the dart tower', pages:1201},
+        {title : 'Javascript', pages:101},
+        {title : 'Harry potter', pages:1031},
+        {title : 'The dart tower', pages:1201},
         {title : 'Got', pages:1010},
-        {title : 'eloquent ruby', pages:1401}
-    
+        {title : 'Eloquent ruby', pages:1401}
     ]
 }

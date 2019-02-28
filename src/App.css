@@ -34,8 +34,11 @@
 
 li {
   list-style: none;
+  color:white;
+  font-family: 'Shrikhand', cursive;
 }
 
 .container{
   margin:50px;
+  font-family: 'Shrikhand', cursive;
 }
