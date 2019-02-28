@@ -13,10 +13,12 @@ const Store = createStore(rootReducer);
 class App extends Component {
   render() {
     return (
-      <div className="App">
-      <Provider store={Store}>
-       <BookList/><BookDetail/>
-       </Provider>
+      <div className="App container">
+        <div className="row">
+          <Provider store={Store}>
+          <BookList/><BookDetail/>
+          </Provider>
+        </div>
       </div>
     );
   }

@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 
  	render(){
  		if(!this.props.book){
- 			return <div>select a book to get started.</div>;
+ 			return <div className="col-6">select a book to get started.</div>;
  		}
 	
 		return(
